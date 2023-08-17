@@ -3,3 +3,108 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+body {
+  background-color: #2f3038;
+  margin: 0;
+}
+header {
+  height: 20vh;
+  margin: 0;
+}
+
+.containerA {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+}
+.containerA img {
+  align-self: flex-end;
+}
+
+.containerB {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.containerB h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 5rem;
+  font-weight: 100;
+  color: white;
+}
+
+.containerB h3 {
+  margin-top: 0;
+  margin-bottom: 75px;
+  font-weight: 100;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.containerB button {
+  background-color: #bc3a80;
+  max-width: max-content;
+  color: white;
+  font-size: 1.5rem;
+  padding: 15px 70px 15px 70px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.circleBlue1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(44, 56, 73);
+  position: fixed;
+  top: 10%;
+  left: 35%;
+  z-index: -1;
+}
+
+.circleBlue2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(44, 56, 73);
+  position: fixed;
+  right: 30%;
+  top: -2%;
+  z-index: -1;
+}
+
+.circleBlue3 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgb(44, 56, 73);
+  position: fixed;
+  right: -5%;
+  bottom: -6%;
+  z-index: -1;
+}
+
+.circlePink1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(68, 50, 67);
+  position: fixed;
+  left: 40%;
+  bottom: 10%;
+  z-index: -1;
+}
+
+.circlePink2 {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: rgb(68, 50, 67);
+  position: fixed;
+  left: 5%;
+  bottom: 10%;
+  z-index: -1;
+}

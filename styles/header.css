@@ -7,3 +7,36 @@
 .isActive {
   background-color: red;
 }
+p {
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo p {
+  font-size: 1.5rem;
+}
+
+.logo img,
+.logo p {
+  margin: 5px;
+}
+
+header nav {
+  align-self: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}

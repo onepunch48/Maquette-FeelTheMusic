@@ -3,3 +3,56 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  background-color: #2f3038;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+h1 span {
+  color: #fd3f92;
+  font-size: 6rem;
+}
+
+form {
+  padding: 10px;
+  background-color: #202027;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+input {
+  background-color: #2f3038;
+  border: 1px solid #fd3f92;
+  border-radius: 10px;
+  margin: 0;
+}
+
+#btn {
+  background-color: #1867a7;
+  color: white;
+  margin: 0;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  margin: auto;
+}
+
+label {
+  color: white;
+  margin: 0;
+}
